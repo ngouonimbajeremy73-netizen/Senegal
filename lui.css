@@ -10,7 +10,7 @@
      } 
      .e{
         background-color: #FFF7ED;
-       height: 1200px;
+       height: auto;
         overflow: hidden;
      } 
     body {
@@ -357,7 +357,7 @@
             font-family: serif;
             text-align: center;
             text-decoration: underline;
-            margin-top: 70px;
+            margin-top: 50px;
             font-family: georgia;
          } 
     
