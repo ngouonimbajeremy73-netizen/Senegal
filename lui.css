@@ -333,6 +333,10 @@
     .E5{
                 grid-template-columns: repeat(2,1fr);
                 height: 300px;
+                margin-top: 50px;
+            }
+            .e{
+                height: auto;
             }
 
         }
