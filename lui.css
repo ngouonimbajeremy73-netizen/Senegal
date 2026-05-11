@@ -313,11 +313,12 @@
              background-color: #7C2D12;
              height: 150px;
             justify-content: space-around;
+            
             gap: 27px;
              grid-template-columns: repeat(4,1fr);
              padding: 10px;
             width: 100%;
-            margin:0 auto;
+            margin: 50px 0 auto;
         }
           .E55{
             height: 100px;
