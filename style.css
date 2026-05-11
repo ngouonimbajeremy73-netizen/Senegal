@@ -231,10 +231,7 @@
                 visibility: visible;
                 transform: translateY(0);
             }
-            .header{
-                 backdrop-filter: blur(12px);
-                  border-bottom: 1px solid #d9e3f2;
-            }
+           
 
             .nav a {
                 width: 100%;
