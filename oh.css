@@ -522,13 +522,10 @@
                 width: 30%;
             }
             .E33{
-                /* coupé le texte qui dépasse */
-              overflow: hidden;
-              text-overflow: ellipsis;
+               height: auto;
             }
-            .A11, .A222{
-                 overflow: hidden;
-              text-overflow: ellipsis;
+            .A11, .A222,.A333{
+                height: auto;
             }
              .A1{
                  grid-template-columns: repeat(1,1fr);
