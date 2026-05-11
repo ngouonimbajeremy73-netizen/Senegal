@@ -13,7 +13,7 @@
         height: auto;
      }  
     .E{
-      background-image: url('SN.png');
+      background-image: url('B.png');
       height: 700px;
       width: 100%;
       position: relative;
@@ -249,7 +249,7 @@
             position: absolute;
             text-align: center;
             top: 225px;
-            left: 280px;
+            left: 300px;
             color: #D97706;
             border-radius: 10px;
         }
@@ -268,7 +268,7 @@
             height: 50px;
             position: absolute; 
              top: 525px;
-            left: 350px;
+            left: 380px;
             display: grid;
             grid-template-columns: repeat(2,1fr);
              gap: 12px;
