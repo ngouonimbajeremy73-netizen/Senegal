@@ -20,8 +20,8 @@
       border-radius: 10px;
     }
     .body {
-            font-family:  sans-serif;
-            color: #1f2f49;
+            font-family: sans-serif;
+          
             padding-top: 92px;
             overflow-x: hidden;
         }
@@ -101,6 +101,7 @@
 
         .nav a {
             text-decoration: none;
+            font-family: sans-serif;
             color: #D97706;
             padding: 10px 16px;
             font-size: 14px;
