@@ -16,7 +16,9 @@
       background-image: url('SN.png');
       height: 700px;
       width: 100%;
-      position: relative;
+      /* pour que l'image ne disparaisse pas lors de la responsive */
+     background-size: cover;
+     background-position: center;
     }
     .body {
             font-family: sans-serif;
@@ -359,7 +361,7 @@
         }
         @media(max-width:1024px){
             .E4{
-                grid-template-columns: repeat(2,1fr);
+                grid-template-columns: repeat(1,1fr);
             }
             .E3{
                 grid-template-columns: repeat(1,1fr);
@@ -371,9 +373,6 @@
         }
         /* Oui je pouvais faire directement pour 860px mais avec la complication de cetaine chose j'ai fait */
         @media(max-width:860px){
-            .E4{
-                grid-template-columns: repeat(1,1fr);
-            }
              .E5{
                 grid-template-columns: repeat(1,1fr);
                 height: auto;

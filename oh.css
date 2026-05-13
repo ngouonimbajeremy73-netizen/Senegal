@@ -16,7 +16,9 @@
       background-image: url('B.png');
       height: 700px;
       width: 100%;
-      position: relative;
+      /* pour que l'image ne disparaisse pas lors de la responsive et que l'image soit au centre  */
+      background-size: cover;
+     background-position: center;
       border-radius: 10px;
     }
     .body {
